@@ -1,0 +1,116 @@
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    background-color: #9FBBD6;
+    color: #1F3657;
+}
+
+h1{
+    font-family: "Caudex", serif;
+    line-height: 1.2;
+    color: #1F3657;
+    font-size: 40px;
+
+}
+h2{
+    font-family: "Caudex", serif;
+    line-height: 1.2;
+    color: #1F3657;
+    font-size: 32px;
+}
+
+h3{
+    font-family: "Caudex", serif;
+    line-height: 1.2;
+    color: #1F3657;
+    font-size: 24px;
+}
+
+p{
+    margin-bottom: 1.25rem;
+    max-width: 100ch;
+}
+
+.wrapper{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav{
+    position: fixed;
+    top: 2.5rem;
+    left: 1rem;
+    width: 12.5rem;
+    height: 91vh;
+    background-color: #D6C39F;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    font-size: 16px;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    margin-bottom: 0.75rem;
+}
+
+nav a{
+    color: #1F3657;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main{
+    margin-left: 15rem;
+    padding: 2rem 3rem;
+    max-width: 75rem;
+    margin-right: auto;
+}
+
+section{
+    margin-bottom: 4rem;
+}
+
+figure img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+figure{
+    width: fit-content;
+    max-width: 100%;
+    background-color: #1F3657;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+figcaption{
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #9FB5D6;
+}
