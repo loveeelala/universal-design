@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    min-height: 100%;
 }
 
 body{
@@ -8,6 +9,7 @@ body{
     background-color: #FDEBFD;
     color: #360318;
     line-height: 1.7;
+    min-height: 100%;
 }
 
 .skip-link{
@@ -195,10 +197,25 @@ footer{
         padding: 20px;
     }
 
+    .photo-collage{
+        width: 280px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
     .about-container .main-photo{
         max-width: 250px;
         height: 280px;
         margin: 0 auto;
+    }
+
+    .about-container .bubble{
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+        min-height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
     }
 
     #projects nav li{
